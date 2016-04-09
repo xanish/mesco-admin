@@ -88,9 +88,6 @@
                         <li>
                            <a href="add-collector.php"><span class="icon fa fa-user-secret"></span>Add New Collector</a>
                         </li>
-                        <li>
-                           <a href="add-admin.php"><span class="icon fa fa-user-plus"></span>Add New Admin</a>
-                        </li>
                      </ul>
                   </div>
                </div>

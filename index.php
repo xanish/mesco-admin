@@ -155,34 +155,6 @@ if($_SESSION['user'] == true){
                                         </div>
                                     </a>
                                 </div>
-                                <div class="col-lg-12 col-md-6 col-xs-6 full-col">
-                                    <a href="index.php">
-                                        <div class="card dark summary-inline">
-                                            <div class="card-body">
-                                                <i class="icon fa fa-question fa-3x"></i>
-                                                <div class="content">
-                                                    <div class="title"><?php echo "0"; ?></div>
-                                                    <div class="sub-title">Item1</div>
-                                                </div>
-                                                <div class="clear-both"></div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-12 col-md-6 col-xs-6 full-col">
-                                    <a href="index.php">
-                                        <div class="card yellow summary-inline">
-                                            <div class="card-body">
-                                                <i class="icon fa fa-question fa-3x"></i>
-                                                <div class="content">
-                                                    <div class="title"><?php echo "0"; ?></div>
-                                                    <div class="sub-title">Item2</div>
-                                                </div>
-                                                <div class="clear-both"></div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
                             </div>
                         </div>
                     </div>
