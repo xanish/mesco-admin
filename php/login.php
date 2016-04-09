@@ -7,7 +7,8 @@ $username = $json['user'];
 $password = $json['pass'];
 $cursor = $db->donors->findOne(array('email'=>$username));
 if(password_verify($password, $cursor['password'])){
-    $arr["response"] = "true";
+    //$arr["response"] = "true";
+    $arr["response"] = strval($cursor["_id"]);
 }
 else{
     $arr["response"] = "false";
